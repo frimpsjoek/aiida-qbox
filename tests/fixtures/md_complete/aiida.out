@@ -1,0 +1,18 @@
+Qbox 1.0.0
+Reading input from qbox.in
+Initializing...
+Running MD...
+Step 100: etotal = -15.6806, temp = 300.0 K
+Step 200: etotal = -15.6795, temp = 302.1 K
+Step 300: etotal = -15.6801, temp = 298.5 K
+Step 400: etotal = -15.6803, temp = 301.2 K
+Step 500: etotal = -15.6800, temp = 299.8 K
+Step 600: etotal = -15.6804, temp = 300.5 K
+Step 700: etotal = -15.6802, temp = 301.0 K
+Step 800: etotal = -15.6805, temp = 299.3 K
+Step 900: etotal = -15.6801, temp = 300.7 K
+Step 1000: etotal = -15.6803, temp = 299.9 K
+MD completed 1000 steps
+cpu time: 12345.67 s
+wall time: 23456.78 s
+<status>completed</status>

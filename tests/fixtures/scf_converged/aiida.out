@@ -1,0 +1,13 @@
+Qbox 1.0.0
+Reading input from qbox.in
+Initializing...
+Running SCF...
+SCF iteration 1: etotal = -15.600000
+SCF iteration 2: etotal = -15.650000
+SCF iteration 3: etotal = -15.670000
+SCF iteration 4: etotal = -15.678000
+SCF iteration 5: etotal = -15.678900
+SCF converged in 5 iterations
+cpu time: 123.45 s
+wall time: 456.78 s
+<status>completed</status>

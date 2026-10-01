@@ -1,0 +1,14 @@
+# Qbox hybrid functional geometry relaxation protocol
+description: "Geometry optimization with hybrid functional"
+parameters:
+  set ecut: "40"
+  set xc: "PBE0"
+  set wf_dyn: "PSDA"
+  set scf_tol: "1e-8"
+  set max_scf: "150"
+  set blHF: "3 3 3"
+  set btHF: "0.01"
+  set atoms_dyn: "CG"
+  set dt: "10"
+  randomize_wf: ""
+  run: "0 150"

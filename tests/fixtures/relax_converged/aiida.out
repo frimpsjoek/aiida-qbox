@@ -1,0 +1,12 @@
+Qbox 1.0.0
+Reading input from qbox.in
+Initializing...
+Running CG relaxation...
+Step 1: etotal = -15.6789, max_force = 0.05
+Step 2: etotal = -15.6801, max_force = 0.02
+Step 3: etotal = -15.6805, max_force = 0.005
+Step 4: etotal = -15.6806, max_force = 0.0008
+Geometry optimization converged
+cpu time: 456.78 s
+wall time: 1234.56 s
+<status>completed</status>

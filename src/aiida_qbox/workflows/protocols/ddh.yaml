@@ -1,0 +1,13 @@
+# Qbox dielectric-dependent hybrid (DDH) SCF protocol
+description: "Dielectric-dependent hybrid (DDH) SCF: alpha_PBE0 = 1/eps_inf"
+parameters:
+  set ecut: "40"
+  set xc: "PBE0"
+  set wf_dyn: "PSDA"
+  set scf_tol: "1e-8"
+  set max_scf: "150"
+  set alpha_PBE0: "0.25"
+  set blHF: "3 3 3"
+  set btHF: "0.01"
+  randomize_wf: ""
+  run: "0 150"

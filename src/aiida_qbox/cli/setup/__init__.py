@@ -1,0 +1,1 @@
+"""Setup commands for aiida-qbox CLI."""

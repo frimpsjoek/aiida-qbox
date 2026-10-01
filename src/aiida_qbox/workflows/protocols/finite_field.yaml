@@ -1,0 +1,11 @@
+# Qbox finite-field calculation for polarization/response
+description: "Finite-field calculation for polarization/response"
+parameters:
+  set ecut: "40"
+  set xc: "PBE"
+  set wf_dyn: "PSDA"
+  set scf_tol: "1e-8"
+  set max_scf: "100"
+  set e_field: "0 0 0.001"
+  randomize_wf: ""
+  run: "0 100"

@@ -1,0 +1,16 @@
+# Qbox MD with Nosé-Hoover thermostat
+description: "MD with Nosé-Hoover thermostat"
+parameters:
+  set ecut: "30"
+  set xc: "PBE"
+  set wf_dyn: "PSDA"
+  set scf_tol: "1e-6"
+  set max_scf: "50"
+  set atoms_dyn: "MD"
+  set dt: "5"
+  set thermostat: "NOSE"
+  set th_temp: "300"
+  set th_time: "100"
+  set th_width: "0.1"
+  randomize_wf: ""
+  run: "1000 1000"

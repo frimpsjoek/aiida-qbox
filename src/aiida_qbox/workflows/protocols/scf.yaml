@@ -1,0 +1,10 @@
+# Qbox SCF protocol
+description: "Single-point SCF calculation"
+parameters:
+  set ecut: "30"
+  set xc: "PBE"
+  set wf_dyn: "PSDA"
+  set scf_tol: "1e-8"
+  set max_scf: "100"
+  randomize_wf: ""
+  run: "0 100"

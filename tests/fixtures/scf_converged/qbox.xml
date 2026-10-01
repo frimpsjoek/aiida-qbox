@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sample xmlns="http://www.quantum-simulation.org/ns/fpmd/fpmd-1.0">
+  <etotal>-15.6789</etotal>
+  <atomset>
+    <unit_cell a="10.26 0 0" b="0 10.26 0" c="0 0 10.26"/>
+    <species name="Si" mass="28.0855" pseudo="Si_PBE.xml"/>
+    <atom name="Si1" species="Si">
+      <position>1.3575 1.3575 1.3575</position>
+      <force>0.001 -0.002 0.0005</force>
+    </atom>
+    <atom name="Si2" species="Si">
+      <position>-1.3575 -1.3575 -1.3575</position>
+      <force>-0.001 0.002 -0.0005</force>
+    </atom>
+  </atomset>
+  <cputime>123.45</cputime>
+  <walltime>456.78</walltime>
+</sample>

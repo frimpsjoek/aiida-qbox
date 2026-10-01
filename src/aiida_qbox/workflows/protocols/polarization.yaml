@@ -1,0 +1,11 @@
+# Qbox Berry-phase polarization calculation
+description: "Berry-phase polarization calculation"
+parameters:
+  set ecut: "30"
+  set xc: "PBE"
+  set wf_dyn: "PSDA"
+  set scf_tol: "1e-8"
+  set max_scf: "100"
+  set polarization: "BERRY"
+  randomize_wf: ""
+  run: "0 100"

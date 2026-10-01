@@ -1,0 +1,13 @@
+# Qbox Car-Parrinello MD protocol
+description: "Car-Parrinello MD"
+parameters:
+  set ecut: "30"
+  set xc: "PBE"
+  set wf_dyn: "MD"
+  set scf_tol: "1e-6"
+  set max_scf: "50"
+  set atoms_dyn: "MD"
+  set dt: "3"
+  set mass: "400"
+  randomize_wf: ""
+  run: "1000 1000"

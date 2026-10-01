@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<sample xmlns="http://www.quantum-simulation.org/ns/fpmd/fpmd-1.0">
+  <etotal>-15.6803</etotal>
+  <atomset>
+    <unit_cell a="15.0 0 0" b="0 15.0 0" c="0 0 15.0"/>
+    <species name="O" mass="15.999" pseudo="O_HSCV_PBE.xml"/>
+    <species name="H" mass="1.008" pseudo="H_HSCV_PBE.xml"/>
+    <atom name="O1" species="O">
+      <position>7.5 7.5 7.5</position>
+      <force>0.01 -0.02 0.005</force>
+    </atom>
+    <atom name="H1" species="H">
+      <position>8.0 7.5 7.5</position>
+      <force>-0.005 0.01 -0.002</force>
+    </atom>
+    <atom name="H2" species="H">
+      <position>7.5 8.0 7.5</position>
+      <force>0.002 -0.005 0.01</force>
+    </atom>
+  </atomset>
+  <cputime>12345.67</cputime>
+  <walltime>23456.78</walltime>
+</sample>
