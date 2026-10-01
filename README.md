@@ -2,6 +2,10 @@
 
 AiiDA plugin for the Qbox code (FPMD/DFT with hybrid functionals, client-server for WEST) — https://qboxcode.org
 
+**Developed under the [Midwest Integrated Center for Computational Materials (MICCoM)](https://miccom.org/), a DOE Computational Materials Sciences center.**
+
+See the [WEST code documentation](https://west-code.org) for information on the finite-field coupling approach used in the client-server mode.
+
 ## Features
 
 - **Calculations**: Single-point SCF, geometry optimization, Born-Oppenheimer MD, Car-Parrinello MD
@@ -156,3 +160,9 @@ pytest --cov=aiida_qbox tests/
 ## License
 
 MIT License - see LICENSE file
+
+## Acknowledgments
+
+Developed under the [Midwest Integrated Center for Computational Materials (MICCoM)](https://miccom.org/), a DOE Computational Materials Sciences center.
+
+See the [WEST code documentation](https://west-code.org) and [Qbox code documentation](https://qboxcode.org) for information on the finite-field coupling approach used in the client-server mode.
